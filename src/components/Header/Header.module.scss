@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    a{
+        color: #671210;
+        text-decoration: none;
+    }
+    .logo{
+        justify-self: start;
+        a{
+            font-family: cursive;
+            font-size: 40px;
+            font-weight: bold;
+            
+        }
+    }
+    ul{
+        display: grid;
+        margin: 12px 40px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        justify-self: end;
+        font-weight: 500;
+    }
+    .navigation{
+        width: 100%;
+        ul{
+            position: relative;
+        }
+    }
+}
