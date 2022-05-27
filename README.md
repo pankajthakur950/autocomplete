@@ -1,3 +1,10 @@
+# Technique Used to implement the functionality
+
+I have used useEffect hook for fetching the result from github API. I have implemented the debounce functionality in useEffect itself so 
+that number of requests send to API can be reduced.
+
+# Build steps
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
